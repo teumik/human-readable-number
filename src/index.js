@@ -23,15 +23,19 @@ module.exports = function toReadable (number) {
     
     return result.trim();
 
-    // if (number < 20) {
-    //     result.push(numberOnesArray[number]);
-    // } else if (20 <= number && number < 100) {
-    //     result.push(numberTensArray[numberString[0]], numberOnesArray[numberString[1]]);
-    // } else if (100 <= number && number <1000) {
-    //     result.push(numberOnesArray[numberString[0]], hundred, numberTensArray[numberString[1]], numberOnesArray[numberString[2]])
-    // }
+    // I know it's so so...
 
-    // for (let i = 0; i < numberString.length; i++) {
-    //     result.push(numberArray[numberString[i]])
-    // }
+    /*
+    if (number < 20) {
+        result.push(numberOnesArray[number]);
+    } else if (20 <= number && number < 100) {
+        result.push(numberTensArray[numberString[0]], numberOnesArray[numberString[1]]);
+    } else if (100 <= number && number <1000) {
+        result.push(numberOnesArray[numberString[0]], hundred, numberTensArray[numberString[1]], numberOnesArray[numberString[2]])
+    }
+
+    for (let i = 0; i < numberString.length; i++) {
+        result.push(numberArray[numberString[i]])
+    }
+    */
 }
